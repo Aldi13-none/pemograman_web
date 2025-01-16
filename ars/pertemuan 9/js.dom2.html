@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Contoh DOM </title>
+    </head>
+<body>
+    <h1 id="header">Hello,Dunia!</h1>
+    <button onclick="Changetext()">Changetext</button>
+
+    <script>
+        function Changetext() {
+
+            let element = document.createElement('h1');
+            element.innerHTML = 'Hello, Element';
+            document.body.appendChild(element);
+        }
+    </script>
+</body>
+</html>
