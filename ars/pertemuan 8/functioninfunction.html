@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title> Contoh function in function</title>
+    </head>
+    <body>
+        <script>
+            function outerfunction(outerVariable) {
+                function innerfunction(innerVariable) {
+                    document.write("Outer Variable: " + outerVariable + "</br>");
+                    document.write("inner Variable: " + innerVariable);
+                }
+                innerfunction("Inner");  
+            }
+            
+            outerfunction("Outer");
+            innerfunction("Inner"); //error karena inner function hanya bisa di akses didalam outerfunction
+            </script>
+    </body>
+</html>

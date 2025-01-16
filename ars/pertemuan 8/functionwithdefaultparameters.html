@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>function with default parameters</title>
+    </head>
+    <body>
+        <script>
+            function register(name, gender = 'UNKNOWN' ) {
+                document.write(`Register ${name} with gender: ${gender}</br>`);
+            }
+
+            //memanggil function dengan mengirimkan salah satu parameter saja
+            register('Aldi', 'Male');
+            register('AAn');
+        </script>
+    </body>
+</html>

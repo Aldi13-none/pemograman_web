@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .content {
+            width: 200px;
+            background-color: aqua;
+            border: 2px solid blue;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content" style="order: 1">
+            <h1>Ini Konten 1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure fugit autem nihil? 
+                Totam atque in beatae corrupti! Magni, placeat. 
+                Excepturi assumenda ab tenetur quae beatae magni illo laborum consequatur omnis?</p>
+        </div>
+        <div class="content" style="order: 2">
+            <h1> Ini Konten 2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Non voluptatem iusto in aspernatur,
+                ab iure vitae exercitationem eligendi reiciendis modi voluptas, 
+                provident, quo neque sint cupiditate animi. Quaerat, expedita voluptatibus?</p>
+        </div>
+        <div class="content" style="order: 3">
+            <h1>Ini Konten 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Non, incidunt nam numquam asperiores cumque fugiat! Autem eligendi ullam ipsa! 
+                Asperiores ex, labore voluptas iure doloribus 
+                blanditiis ratione omnis quisquam nostrum!</p>
+        </div>
+        <div class="content" style="order: 4">
+            <h1>Ini konten 4</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, ipsum! 
+                Natus eligendi iusto exercitationem 
+                quis doloribus nostrum veniam delectus officia voluptas. 
+                Ullam doloremque quo a facilis similique suscipit porro! Totam?</p>
+        </div>
+    </div>
+</body>
+
+</html>
